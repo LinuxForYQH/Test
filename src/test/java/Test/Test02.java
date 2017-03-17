@@ -44,8 +44,6 @@ public class Test02 extends AbstractDbUnitTestCase {
 
 
 
-
-
     @Before
     public void setUp() throws DataSetException, SQLException, IOException {
         Session s = sessionFactory.openSession();

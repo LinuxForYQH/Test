@@ -7,6 +7,11 @@ import java.net.InetAddress;
  */
 public class Test01 {
 
+    /**
+     * 多线程测试
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
         new Thread() { // 断点0
             @Override
